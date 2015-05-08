@@ -193,3 +193,7 @@ default.kafka.log4j.loggers = {
     additivity: false,
   },
 }
+
+# Define the name of the run script used by our service management system. The
+# confluent distribution of Kafka removes the .sh extension to these files.
+default.kafka.run_script = "bin/kafka-run-class.sh"
