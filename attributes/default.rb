@@ -123,7 +123,7 @@ default.kafka.broker = {}
 
 #
 # Root logger level and appender.
-default.kafka.log4j.root_logger = 'INFO, kafkaAppender'
+default.kafka.log4j.root_logger = 'WARN, kafkaAppender'
 
 #
 # Appender definitions for various Kafka classes.

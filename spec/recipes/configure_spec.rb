@@ -146,7 +146,7 @@ describe 'kafka::_configure' do
     end
 
     it 'configures root logger' do
-      expect(chef_run).to have_configured(path).with('log4j.rootLogger').as('INFO, kafkaAppender')
+      expect(chef_run).to have_configured(path).with('log4j.rootLogger').as('WARN, kafkaAppender')
     end
 
     it 'configures appenders' do
